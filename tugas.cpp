@@ -9,6 +9,7 @@ struct Nasabah {
     string nama;
     double saldo;
     Nasabah* next;
+    int NPM[15] = {2, 3, 1, 0, 6, 3, 1, 1, 7, 0, 1, 5, 6};
 };
 
 // Fungsi untuk menambahkan data nasabah
